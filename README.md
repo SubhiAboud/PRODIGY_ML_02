@@ -1,41 +1,42 @@
-Mall Customer Segmentation using K-means Clustering
-Project Overview
-This project aims to segment mall customers based on their purchasing behavior using the K-means clustering algorithm. By analyzing customer data, we identify distinct groups of customers, which can help in developing targeted marketing strategies and improving customer experience.
-Dataset
-The dataset contains information about mall customers, including:
-Customer ID
-Gender
-Age
-Annual Income (k$)
-Spending Score (1-100)
-Methodology
-Data Exploration: Analyzed the distribution and relationships between different features.
-Data Visualization: Created various plots to understand the data better.
-3. Feature Selection: Used Principal Component Analysis (PCA) to identify high-variance features.
-Clustering: Applied K-means algorithm to segment customers.
-Results Visualization: Plotted the resulting clusters for easy interpretation.
-Key Findings
-Identified 5 distinct customer segments:
-High income, high spenders
-Low income, low spenders
-3. Average income and spending
-High income, low spenders
-Low income, high spenders
-Tools and Libraries Used
-Python 3
-Pandas for data manipulation
-NumPy for numerical operations
-Scikit-learn for machine learning algorithms
-Matplotlib and Seaborn for data visualization
-How to Run
-Clone this repository
-Install required libraries: pip install -r requirements.txt
-Run the Jupyter notebook: jupyter notebook Mall_Customer_Segmentation.ipynb
-Future Work
-Implement more advanced clustering algorithms
-Incorporate more customer data for better segmentation
-Develop a dashboard for real-time customer segmentation
-Contributors
-[Your Name]
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+# Mall Customer Segmentation Analysis
+
+## Overview
+This Jupyter notebook demonstrates customer segmentation for a mall using the K-means clustering algorithm. The analysis aims to group customers based on their purchasing behavior.
+
+## Key Contents
+
+### 1. Library Imports
+- Pandas, NumPy for data manipulation
+- Seaborn, Matplotlib for data visualization
+- Scikit-learn for machine learning algorithms
+
+### 2. Data Exploration
+- Loading and initial examination of the dataset
+- Basic statistical analysis
+
+### 3. Data Visualization
+- Distribution plots for key features
+- Correlation analysis
+
+### 4. Clustering
+- Application of K-means algorithm
+- Determination of optimal number of clusters
+
+### 5. Insights
+- Analysis of identified customer segments
+- Visualization of clusters
+
+## Main Findings
+
+Five distinct customer groups were identified:
+1. High spending score, high annual income
+2. Low spending score, low annual income
+3. Medium spending score, medium annual income
+4. Low spending score, high annual income
+5. High spending score, low annual income
+
+## Key Features
+
+- **PCA Implementation**: Used to identify high-variance features
+- **Advanced Visualization**: Scatter plots to represent clustering results
+- **In-depth Analysis**: Detailed examination of each customer segment
