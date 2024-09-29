@@ -1,7 +1,7 @@
 # Mall Customer Segmentation Analysis
 
 ## Overview
-This Jupyter notebook demonstrates customer segmentation for a mall using the K-means clustering algorithm. The analysis aims to group customers based on their purchasing behavior.
+This notebook demonstrates customer segmentation for a mall using the K-means clustering algorithm. The analysis aims to group customers based on their purchasing behavior.
 
 ## Key Contents
 
